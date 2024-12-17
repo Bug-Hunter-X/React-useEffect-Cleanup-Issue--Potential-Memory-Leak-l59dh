@@ -1,0 +1,2 @@
+# React useEffect Cleanup Issue: Potential Memory Leak
+This repository demonstrates a common issue with React's `useEffect` hook, specifically concerning cleanup functions and potential memory leaks. The `bug.js` file showcases a component with a `setInterval` that is not properly cleared in all scenarios, leading to a potential memory leak. The `bugSolution.js` file provides a corrected version that addresses this issue.  This example highlights the importance of careful cleanup in `useEffect` hooks, especially when dealing with timers or other asynchronous operations.
